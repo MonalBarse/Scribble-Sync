@@ -10,25 +10,28 @@ Scribble Sync is a real-time whiteboarding application that enables collaborativ
 - Liveblocks Integration: Scribble Sync leverages Liveblocks for real-time synchronization of drawing actions across all connected users.
 - Fabric.js: Fabric.js is used as the rendering engine for the drawing canvas, providing powerful features for handling shapes, layers, and interactions.
 - SHADCN: The application is styled using SHADCN, a lightweight CSS framework that provides modern and customizable styling.
-- Tailwind: Tailwind CSS is used for utility-first CSS styling, allowing for rapid development and easy customization.
-- TypeScript: Scribble Sync is written in TypeScript, providing type safety and enhanced developer productivity.
 
 ## Technologies Used
 
 - [Liveblocks](https://liveblocks.io/): Liveblocks is a real-time collaboration platform that provides synchronization primitives for building collaborative applications.
 - [Fabric.js](http://fabricjs.com/): Fabric.js is a JavaScript library that provides interactive object model on top of HTML5 canvas elements.
-- [SHADCN](https://shadcn.io/): SHADCN is a lightweight CSS framework for building modern and responsive web applications.
-- [Tailwind CSS](https://tailwindcss.com/): Tailwind CSS is a utility-first CSS framework for creating custom designs without writing CSS.
-- [TypeScript](https://www.typescriptlang.org/): TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.
+- [SHADCN](https://shadcn.io/): SHADCN was used for the component styling as it is a lightweight CSS framework that provides modern and customizable styling.
+- [Tailwind CSS](https://tailwindcss.com/): I planned to use Tailwind CSS for utility-first CSS styling as it is highly customizable and easy to use.
+- [TypeScript](https://www.typescriptlang.org/): TypeScript was used for writing the application code, providing type safety and enhanced developer productivity.
+- [Convex DB](https://convexdb.com/): Convex DB was used as it is a real-time database that provides seamless synchronization of data across clients.
+- [Clerk](https://clerk.dev/): Clerk is an authentication and user management platform which was used for secure and scalable authentication for out applications.
 
 ### Thanks to 
+- [LiveBlocks](https://liveblocks.io/) for the documentation and tutorials on how to use LiveBlocks and make a whiteboard application.
+- [ConvexDocks](https://docs.convex.dev/get-started) helped me to understand how to use Convex DB for storing the data of the users and the rooms in short time.
+- [UI Material](https://www.figma.com/file/WvBPIfCrmBmK6cULNsaHgf/SALY---3D-Illustration-Pack-(Community)?type=design&node-id=234-56&mode=design&t=ATEfoHGMVQg0X5WP-0) for Great 3D figma illustrations which were free to use
+- [unDraw](https://undraw.co/illustrations) for the simple and minimalistic illustrations which were free to use
 - https://youtu.be/eFbXTo0aanQ?si=ynDF3YEMBYDCbdL- for the tutorial on how to build use LiveBlocks 
 
 ### Future Plans
-(This is a alpha release for testing out the application.)
+(This is a v2 release of the application)
 
-- I plan to intergrate a proper authentication system for users and different rooms for different users, and access to the rooms.
-- I plan to use Convex DB for storing the data of the users and the rooms and and Clerk for authentication.
+- I plan to intergrate different rooms for the users for accessing the whiteboard.
 
 ## Getting Started
 
@@ -51,6 +54,6 @@ pnpm dev
 # or
 bun dev
 ```
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the website or you can visit to see the demo version : [](Here)
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the website 
 
 
