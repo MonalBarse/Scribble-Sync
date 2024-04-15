@@ -21,6 +21,9 @@ Scribble Sync is a real-time whiteboarding application that enables collaborativ
 - [Tailwind CSS](https://tailwindcss.com/): Tailwind CSS is a utility-first CSS framework for creating custom designs without writing CSS.
 - [TypeScript](https://www.typescriptlang.org/): TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.
 
+### Thanks to 
+- https://youtu.be/eFbXTo0aanQ?si=ynDF3YEMBYDCbdL- for the tutorial on how to build use LiveBlocks 
+
 ### Future Plans
 (This is a alpha release for testing out the application.)
 

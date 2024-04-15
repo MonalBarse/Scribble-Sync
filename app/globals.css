@@ -4,6 +4,11 @@
 
 @import "@liveblocks/react-comments/styles.css";
 
+html,body,
+:root{
+  height: 100%;
+}
+
 * {
   font-family:
     work sans,

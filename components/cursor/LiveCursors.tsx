@@ -5,11 +5,12 @@ import { LiveCursorProps } from "@/types/type";
 
 // display all other live cursors
 const LiveCursors = ({ others }: LiveCursorProps) => {
+
+
   return others.map(({ connectionId, presence }) => {
     if (presence == null || !presence?.cursor) {
       return null;
     }
-
     return (
       <Cursor
         key={connectionId}

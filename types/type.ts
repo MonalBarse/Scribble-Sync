@@ -5,7 +5,7 @@ export enum CursorMode {
   Hidden,
   Chat,
   ReactionSelector,
-  Reaction,
+  Reaction, 
 }
 
 export type CursorState =

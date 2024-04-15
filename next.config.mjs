@@ -18,6 +18,11 @@ const nextConfig = {
         hostname: "liveblocks.io",
         port: "",
       },
+      {
+        protocol: "https",
+        hostname: "img.clerk.com",
+        port: "",
+      },
     ],
   },
   typescript: {

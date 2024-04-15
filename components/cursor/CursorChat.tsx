@@ -1,6 +1,48 @@
 import { CursorChatProps, CursorMode } from "@/types/type";
 import CursorSVG from "@/public/assets/CursorSVG";
 
+/* 
+type CursorState =
+  | {
+    mode: CursorMode.Hidden;
+  }
+  | {
+    mode: CursorMode.Chat;
+    previousMessage: string | null;
+    message: string;
+  }
+  | {
+    mode: CursorMode.ReactionSelector;
+  }
+  | {
+    mode: CursorMode.Reaction;
+    reaction: string;
+    isPressed: boolean;
+  };
+
+type CursorChatProps = {
+  cursor: { x: number; y: number };
+  cursorState: CursorState;
+  setCursorState: (cursorState: CursorState) => void;
+  updateMyPresence: (
+    presence: Partial<{
+      cursor: { x: number; y: number };
+      cursorColor: string;
+      message: string;
+    }>
+  ) => void;
+};
+
+enum CursorMode {
+  Hidden,
+  Chat,
+  ReactionSelector,
+  Reaction,
+}
+
+ */ // Better to write reusable types in a seperate folder
+
+
 const CursorChat = ({ cursor, cursorState, setCursorState, updateMyPresence }: CursorChatProps) => {
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     updateMyPresence({ message: e.target.value });
