@@ -2,6 +2,9 @@
 
 Scribble Sync is a real-time whiteboarding application that enables collaborative drawing and diagramming. With Scribble Sync, users can create shapes, diagrams, and freeform drawings together in real-time, making it ideal for brainstorming sessions, planning meetings, and collaborative presentations.
 
+### Here is the link of the video of how the application works 
+[Link](https://www.loom.com/share/abbf79393b2842de9a5dac7a0b9bb2fd?sid=f49a2c2d-2550-41c9-b0f7-2e49e8baa718) - By [loom.com](https://loom.com/)
+
 ## Features
 
 - Real-time Collaboration: Multiple users can collaborate on a single canvas simultaneously, allowing for seamless teamwork.
@@ -35,8 +38,6 @@ Scribble Sync is a real-time whiteboarding application that enables collaborativ
 - I plan to intergrate different rooms for the users for accessing the whiteboard.
 - Also plan to deploy it on a server and make it live for the users to use.
 
-### Here is the link of the video of how the application works 
-[Link](https://www.loom.com/share/abbf79393b2842de9a5dac7a0b9bb2fd?sid=f49a2c2d-2550-41c9-b0f7-2e49e8baa718) - By [loom.com](https://loom.com/)
 
 ## Getting Started
 
